@@ -9,7 +9,9 @@ With the addition of [Quick starts to OpenShift](https://docs.openshift.com/cont
 
 Please add to the list here of quickstarts that would be helpful.
 
-Authentication Configuration (oauth ldap etc)
-OCP-Virt port mapping (how do you open SSH or RDP to a vm)
+| Quickstart | Details |
+| ---------- | ------- |
+| Authentication Configuration | Hpw to Configure oauth ldap etc | 
+| OCP-Virt port mapping | How to open SSH or RDP to a vm)|
 
 Please Place a pull request to the repository or put in an issue and we will add to the list.
