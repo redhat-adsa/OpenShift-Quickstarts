@@ -1,10 +1,12 @@
 # OpenShift Quickstarts
 
-Centralized repository of community quickstarts that anyone can import into their OpenShift deployments.
+Centralized repository of community Quickstarts that anyone can import into their OpenShift deployments. Quickstarts have been added as a custom resource definition in OpenShift so that administrators can easily add instructions for end users to have best practices for OpenShift without having to open another tool to find the best practice. 
 
 ## Objective
 
-With the addition of [Quick starts to OpenShift](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html) we want to curate a place for people to create and contribute quick starts to use for their deployments that may not be included in an operator.
+With the addition of [Quick starts to OpenShift](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html) we want to curate a place for people to create and contribute quick starts to use for their deployments that may not be included in an operator. Here is a image of an example Quickstart we created for creating users in the console via a HTPasswd file:
+
+![htpasswd.png](images/htpasswd.png)
 
 ## OCP QuickStart Ideas
 
@@ -25,9 +27,9 @@ Please do a pull request to the repository or put in an issue and we will add to
 
 ## Quick Starts
 
-| Quickstart                  | To install clone this repository and run the below command |
-|-----------------------------|------------------------------------------------------------|
-| Authentication via HTPasswd | oc create authentication_configuration/htpasswd_auth.yaml  |
+| Quickstart                  | To install clone this repository and run the below command   |
+|-----------------------------|--------------------------------------------------------------|
+| Authentication via HTPasswd | oc create -f authentication_configuration/htpasswd_auth.yaml |
 
 ## Quick Example on how to create a Quick Start
 
@@ -53,7 +55,10 @@ Update the YAML file using the guidance outlined in [this documentation](https:/
 
 Save your edits.
 
-To quickly test the quickstart go into developer on and click the `+Add` button in the left menu. You should see quickstarts in the top left box.
+To quickly test the quickstart choose the openshift project `openshift-config` go into developer on and click the `+Add` button in the left menu. You should see quickstarts in the top left box. See image below:
+
+![add.png](images/add.png)
+
 
 ### Tips
 
