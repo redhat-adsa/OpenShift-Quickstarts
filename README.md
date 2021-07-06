@@ -46,6 +46,8 @@ Update the YAML file using the guidance outlined in [this documentation](https:/
 
 Save your edits.
 
+To quickly test the quickstart go into developer on and click the `+Add` button in the left menu. You should see quickstarts in the top left box.
+
 ### Tips
 
 For testing you will need to delete and apply the CRD and reapply it:
