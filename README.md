@@ -45,3 +45,23 @@ oc create -f my-quick-start.yaml
 Update the YAML file using the guidance outlined in [this documentation](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html).
 
 Save your edits.
+
+### Tips
+
+For testing you will need to delete and apply the CRD and reapply it:
+
+```shell
+oc delete consolequickstarts htpasswd-auth -n <namespace>
+```
+
+Re-apply:
+
+```shell
+oc create -f my-quick-start.yaml
+```
+
+To get a list of all quickstarts:
+
+```shell
+oc get consolequickstarts
+```
