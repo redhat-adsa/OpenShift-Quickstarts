@@ -12,11 +12,11 @@ Please add to the list here of quickstarts that would be helpful.
 
 | Quickstart                   | Details                                                       |
 |------------------------------|---------------------------------------------------------------|
-| Authentication Configuration | Hpw to Configure oauth ldap etc                               |
+| Authentication Configuration | How to Configure oauth ldap etc                               |
 | OCP-Virt port mapping        | How to open SSH or RDP to a vm)                               |
 | Alert customizations         | editing alert bodies, customize or create new alerts          |
 | MTV (Konveyor)               | How to: Move vms from vmware, Move vms across storage devices |
-| OCP-VConnect to BMC          | (Bare Metal Controller ie. iLO, Drac, etc)                    |
+| OCP-Virt Connect to BMC      | (Bare Metal Controller ie. iLO, Drac, etc)                    |
 | Create storage class         | How to create a storage class                                 |
 | Secrets and use cases        |                                                               |
 
