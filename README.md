@@ -23,11 +23,11 @@ Please add to the list here of quickstarts that would be helpful.
 
 Please do a pull request to the repository or put in an issue and we will add to the list.
 
-## Avaialable Quick Starts in this repo
+## Quick Starts
 
-| Quickstart                  | Details                                                   |
-|-----------------------------|-----------------------------------------------------------|
-| Authentication via HTPasswd | oc create authentication_configuration/htpasswd_auth.yaml |
+| Quickstart                  | To install clone this repository and run the below command |
+|-----------------------------|------------------------------------------------------------|
+| Authentication via HTPasswd | oc create authentication_configuration/htpasswd_auth.yaml  |
 
 ## Quick Example on how to create a Quick Start
 
