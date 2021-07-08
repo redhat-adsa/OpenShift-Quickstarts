@@ -59,6 +59,21 @@ To quickly test the quickstart choose the openshift project `openshift-config` g
 
 ![add.png](images/add.png)
 
+### Example QuickStart for HTPasswd
+
+We created a QuickStart to show you how to add users using HTPasswd as an example in the authentication_configuration folder. 
+
+Apply to cluster:
+
+```shell
+oc create -f authentication_configuration/htpasswd_auth.yaml
+```
+
+If you dont want to have to download the git repository you can also do it directly from the web like this:
+
+```shell
+oc create -f https://raw.githubusercontent.com/redhat-adsa/OpenShift-Quickstarts/main/authentication_configuration/htpasswd_auth.yaml
+```
 
 ### Tips
 
